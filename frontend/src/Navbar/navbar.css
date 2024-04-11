@@ -1,14 +1,19 @@
+body{
+    margin: 0;
+    
+}
 .header{
-    display:flex;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     background-color: aquamarine;
 }
 
 .nav-menu{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
     list-style: none;
     text-align: center;
     margin: 0;
@@ -17,4 +22,9 @@
 
 .nav-item{
     padding: 1rem;
+}
+
+.search-container{
+    display: flex;
+    justify-self:center;
 }

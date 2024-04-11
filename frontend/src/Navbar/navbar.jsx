@@ -6,19 +6,19 @@ function Navbar() {
                 <p className="logo-text">Logo</p>
             </div>
 
-            
-            <nav className="navbar">  
-                <ul className="nav-menu">
-                    <li className="nav-item">Orders</li>
-                    <li className="nav-item">Sign In</li>
-                    <li className="nav-item">Cart</li>
-                </ul>
-            </nav>
-
             <div className="search-container">
                 <input type="text" />
                 <button>search</button>
             </div>
+
+            <nav className="navbar">  
+                <ul className="nav-menu">
+                    <li className="nav-item">Orders</li>
+                    <li className="nav-item">Account</li>
+                    <li className="nav-item">Cart</li>
+                </ul>
+            </nav>
+
 
         </div>
     )
